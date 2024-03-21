@@ -1,0 +1,56 @@
+.button-whatsap {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+}
+
+.whatsap {
+    border: 1px solid black;
+}
+
+.svg-button {
+    border: none;
+}
+
+.icon-enter-down::before {
+    content: '';
+}
+
+.icon-my-class::before {
+    content: '';
+    background-image: url("../img/navigate_next_FILL0_wght400_GRAD0_opsz24.svg");
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.my-down-element::before {
+    content: '';
+    background-image: url("../img/expand_more_FILL0_wght400_GRAD0_opsz24.svg");
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+#player {
+    width: 560px;
+    height: 315px;
+    overflow: hidden;
+}
+#video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
